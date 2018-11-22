@@ -1,6 +1,7 @@
 declare module "react-native-image-picker" {
 
     interface Response {
+        originalRotation?: number;
         customButton: string;
         didCancel: boolean;
         error: string;
